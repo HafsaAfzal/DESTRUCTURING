@@ -2,8 +2,8 @@
 // returns a string with the person’s information. Use object destructuring to assign the
 // properties to variables.
 const info=(person)=>{
-    let {n , a , o}=person;
-    return `My name is ${n} . I am ${a} years old and my occupation is ${o}`
+    let {name, age, occupation}=person;
+    return `My name is ${name} . I am ${age} years old and my occupation is ${occupation}`
 }
 let person={
     name:"Hafsa",
